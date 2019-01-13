@@ -1,25 +1,80 @@
-<!DOCTYPE html>
+<!DOCTYPE html>           
 <html>
 <head>
-<!--script type="text/javascript" src="Project/scripts/jquery.js"> </script>
-	<script type="text/javascript" src="Project/scripts/bootstrap.js"> </script-->
-	<link rel="stylesheet" href="https://darkanalyser.github.io/Video.css">
-	<title>Jquery methods</title>
-	</head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://darkanalyser.github.io/Video.css">
 
+  <title>Sample Page</title>
+</head>
 <body>
-			<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >                  <!--Navbar Starting--><!--Navbar Starting--><!--Navbar Starting-->
+    <div class="container">  
+    <a class=" navbar-dark bg-dark" href="#"><h4>PC Builder</h4></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> 
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>  
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Get Started</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Something</a>
+        </li>
+        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+        </li>
+        <li class="nav-item navbar-dark bg-dark">
+          <a class="nav-link navbar-dark bg-dark disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-dark bg-dark navbar-right">
+          <button type="button" class="btn btn-btn btn-default" href="#" role="button"><li><a style="color:white">Sign Up </a></li></button>
+          <button type="button" class="btn btn-btn btn-default " href="#" role="button"><li><a style="color:white">Log In</a></li></button>
+      </ul>
+      
+    </div>
+    </div>
+  </nav>                                                                      <!--Navbar Ending><!Navbar Ending><!Navbar Ending-->
+<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
      <source src="https://darkanalyser.github.io/q.mp4" type="video/mp4">
      <source src="movie.webm" type="video/webm">
           Sorry, your browser does not support HTML5 video.
 </video>
+
+
+<!>                                                            <!--ACTUAL BODY OF THE PAGE-->
+<!>
 <div class="cap">
-    <div class="title" style="color:blue">Sign In</div>
+    <div class="title">Sign In</div>
 </div>
 <form> 
   <input type="text" placeholder="ID">
   <input type="password" placeholder="Password">
   <input type="submit" value="Sign In ">
 </form>
+<!>
+<!>
+<!>                                                            <!--END OF ACTUAL BODY OF THE PAGE-->
+
+
+   
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>                                   <!--Scripts--><!--Scripts--><!--Scripts-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>                                <!--Scripts--><!--Scripts--><!--Scripts-->                                         
 </body>
 </html>
